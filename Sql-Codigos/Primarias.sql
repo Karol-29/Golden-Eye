@@ -3,10 +3,7 @@ ALTER TABLE Penalties
 ADD CONSTRAINT pk_penalties PRIMARY KEY (id);
 
 ALTER TABLE Bids 
-ADD CONSTRAINT pk_bids PRIMARY KEY (id);
-
-ALTER TABLE BidsByAuctions 
-ADD CONSTRAINT pk_bidsbyauctions PRIMARY KEY (idBid, idAuction);
+ADD CONSTRAINT pk_bids PRIMARY KEY (id,idAuction);
 
 ALTER TABLE Auctions 
 ADD CONSTRAINT pk_auctions PRIMARY KEY (id);
