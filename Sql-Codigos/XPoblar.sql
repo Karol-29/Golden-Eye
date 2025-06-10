@@ -1,0 +1,16 @@
+DELETE FROM AuctionByProduct;
+DELETE FROM Products;
+DELETE FROM Categories;
+DELETE FROM PickUp;
+DELETE FROM ToAddress;
+DELETE FROM Registered;
+DELETE FROM PhoneNumbers;
+DELETE FROM Penalties;
+DELETE FROM Bids;
+DELETE FROM Auctions;
+DELETE FROM Payments;
+DELETE FROM Users;
+DELETE FROM Addresses;
+DELETE FROM TypesDelivery;
+
+COMMIT;
